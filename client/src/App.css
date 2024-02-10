@@ -1,0 +1,209 @@
+.app {
+  background-image: url("./images/bg.jpeg");
+  background-size:cover;
+  min-height: 100vh;
+  background-repeat:no-repeat; 
+}
+
+.forms {
+  padding-top: 80px;
+  display: grid;
+  font-size: 60px;
+  place-items: center;
+  color: wheat;
+}
+
+.login {
+  margin-top: 80px;
+  padding: 50px;
+  margin-bottom: 20px;
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+}
+
+.login label {
+  font-size: 30px;
+  color: red;
+}
+
+.login input {
+  height: 40px;
+  border-radius: 20px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+
+.login button {
+  margin-top: 10px;
+  width: 100px;
+  background-color: red;
+}
+
+.employee {
+  height: 100vh;
+  width: 100%;
+  padding: 250px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Inventory {
+  color: solid black;
+  display: flex;
+  flex-direction: row;
+  place-content: center;
+  margin-top: 180px;
+}
+.Inventory button {
+  font-family:'Times New Roman', Times, serif ;
+  font-size: 30px;
+  margin-right: 10px;
+  border-radius: 30px;
+}
+.title_inventory {
+  text-decoration: underline overline dotted;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 60px;
+  margin-top: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.ShowEmployees {
+  width: 100%;
+  padding-top: 20px;
+}
+Form {
+  padding-top: 20px;
+  padding-left: 50px;
+  display: grid;
+  width: 50%;
+  
+}
+
+.ShowEmployeesTable {
+  padding: 50px;
+}
+
+.RemoveEmployee {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.RemoveEmployee input {
+  border-radius: 10px;
+  margin: 10px;
+  width: 35%;
+  height: 5vh;
+  text-align: center;
+  padding: 20px;
+}
+.RemoveEmployee button {
+  border-radius: 10px;
+  margin-left: 10px;
+  width: 10%;
+  height: 5vh;
+  text-align: center;
+}
+
+.showRemProduct {
+  padding-left: 20px;
+}
+
+.showRemProduct input{
+  border-radius: 10px;
+  margin: 10px;
+  width: 35%;
+  height: 5vh;
+  text-align: center;
+  padding: 20px;
+}
+
+.showRemProduct button {
+  border-radius: 30px;
+  width: 10%;
+  margin: 5px;
+}
+
+.addBillMan {
+  padding:10px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+
+.addBillMan1 input {
+  font-family: 'Times New Roman', Times, serif;
+  width: 35%;
+  height: 25px;
+  border-radius: 15px;
+  text-align: center;
+  padding: 20px;
+  margin: 7px;
+}
+.addBillMan1 {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  width: 70%;
+  margin: 10px;
+}
+
+.addBillMan form {
+  width: 35%;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+
+.addBillMan button {
+  width: 35%;
+  margin: 10px;
+}
+
+.billIdSummary {
+  padding: 20px;
+  width: 25%;
+}
+
+.billIdSummary input {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  width: 100%;
+  height: 25px;
+  border-radius: 15px;
+  text-align: center;
+  padding: 20px;
+}
+.dateSummary {
+  margin-top: 1%;
+  padding: 20px;
+  width: 25%;
+}
+.dateSummary input{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  width: 100%;
+  height: 25px;
+  border-radius: 15px;
+  text-align: center;
+  padding: 20px;
+}
+
+.summary {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.addProduct {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 10px;
+  font-size: 20px;
+}
